@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.frogastudios.mopallets.mixin",
+  "package": "com.frogastudios.mopalettes.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
