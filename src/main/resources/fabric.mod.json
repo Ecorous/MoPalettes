@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "mopallets",
+  "version": "${version}",
+  "name": "Mo' Pallets",
+  "description": "Mo’ Pallets is a mod adding more decorative blocks to minecraft 1.17.1+ fabric.",
+  "authors": [
+    "Exo",
+    "Tir",
+    "MadWolf494"
+  ],
+  "contact": {
+    "website": "https://frogastudios.com",
+    "repo": "https://github.com/ExoPlant/MoPallets"
+  },
+  "license": "MIT",
+  "icon": "assets/mopallets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.frogastudios.mopallets.client.MopalletsClient"
+    ],
+    "main": [
+      "com.frogastudios.mopallets.Mopallets"
+    ]
+  },
+  "mixins": [
+    "mopallets.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
